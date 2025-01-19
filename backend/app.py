@@ -16,7 +16,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)
+# Enable CORS for all domains (or specify your frontend URL)
+CORS(app, origins=["https://advantage-ai-testing.vercel.app/"])
+# CORS(app)
 
 # Initialize QA Bot Service
 try:
