@@ -5,7 +5,7 @@ import Herosection2 from '../components/HomePage/Herosection2';
 import { About1 } from '../components/HomePage/About1';
 import { HeroAlternate } from '../components/HomePage/HeroAlternate';
 import Accordion from '../components/HomePage/Accordion';
-import Footer from '../components/HomePage/footer';
+import Footer from '../components/HomePage/Footer';
 
 // src/pages/Home.jsx
 const Home = () => {
